@@ -2,6 +2,7 @@
 *.data
 *.meta
 STDERR.*
+mitgcmuv
 
 # Specific directories #
 __pycache__/
