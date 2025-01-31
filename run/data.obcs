@@ -2,7 +2,7 @@
  &OBCS_PARM01
 
  OB_Jsouth = 240*1,
- OB_Jnorth = 512*0,
+ OB_Jnorth = 180*0,
  useOrlanskiSouth=.TRUE.,
  useOBCSsponge=.FALSE.,
  useLinearSponge=.FALSE.,
