@@ -21,6 +21,7 @@ mnc_0*/
 *.mov
 *.pdf
 *.eps
+*.png
 
 # Compiled source #
 ###################
