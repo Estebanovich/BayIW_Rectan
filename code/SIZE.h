@@ -46,13 +46,13 @@ CEOP
      &           sNy =   20,
      &           OLx =   3,
      &           OLy =   3,
-     &           nSx =   16,
-     &           nSy =   16,
-     &           nPx =   1,
-     &           nPy =   1,
+     &           nSx =   8,
+     &           nSy =   8,
+     &           nPx =   2,
+     &           nPy =   2,
      &           Nx  = sNx*nSx*nPx,
      &           Ny  = sNy*nSy*nPy,
-     &           Nr  =   30)
+     &           Nr  =   50)
 
 C     MAX_OLX :: Set to the maximum overlap region size of any array
 C     MAX_OLY    that will be exchanged. Controls the sizing of exch
