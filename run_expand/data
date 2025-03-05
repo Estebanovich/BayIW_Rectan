@@ -5,6 +5,7 @@
  viscAr=1.E-5,
  no_slip_sides=.FALSE.,
  no_slip_bottom=.FALSE.,
+ bottomDragQuadratic = 1.0e-3,
  diffKhT=100.,
  diffKrT=1.E-5,
  diffKhS=100.,
@@ -57,7 +58,7 @@
 # Time stepping parameters
  &PARM03
  startTime=0.,
- endTime=72000.,,
+ endTime=162000.,,
 # pickupSuff='ckptA',
  nIter0=0,
  deltaT=60.,
@@ -67,7 +68,7 @@
  monitorSelect=2,
  periodicExternalForcing=.TRUE.,
  externForcingPeriod=1200.,
- externForcingCycle=72000,
+ externForcingCycle=162000,
  &
 
 # Gridding parameters
@@ -94,7 +95,7 @@
 
  &PARM05
  bathyFile='../input/bahia_01_expand_bat.bin',
- meridWindFile='../input/merid_halfgauss2p5hr_272x320.bin', 
+ meridWindFile='../input/merid_halfgauss45hr_272x320.bin', 
  hydrogThetaFile='../input/feb_temp_90zlev_272x320.bin',
  hydrogSaltFile='../input/feb_salt_90zlev_272x320.bin',
  &
