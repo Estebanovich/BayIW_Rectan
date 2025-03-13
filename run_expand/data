@@ -61,7 +61,7 @@
  endTime=162000.,,
 # pickupSuff='ckptA',
  nIter0=0,
- deltaT=60.,
+ deltaT=40.,
  chkptFreq=43200.,
  dumpFreq=1200.,
  monitorFreq=1200.,
@@ -95,8 +95,8 @@
 
  &PARM05
  bathyFile='../input/bahia_01_expand_bat.bin',
- meridWindFile='../input/merid_halfgauss45hr_272x320.bin', 
- hydrogThetaFile='../input/feb_temp_90zlev_272x320.bin',
- hydrogSaltFile='../input/feb_salt_90zlev_272x320.bin',
+ meridWindFile='../input/merid_halfgauss45hr_352x496.bin', 
+ hydrogThetaFile='../input/feb_temp_90zlev_352x496.bin',
+ hydrogSaltFile='../input/feb_salt_90zlev_352x496.bin',
  &
 

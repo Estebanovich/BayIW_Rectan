@@ -1,7 +1,7 @@
 # Open-boundaries
  &OBCS_PARM01
- OB_Jsouth = 272*1,
- OB_Jnorth = 272*0,
+ OB_Jsouth = 352*1,
+ OB_Jnorth = 352*0,
  useOrlanskiSouth=.TRUE.,
  useOBCSsponge=.FALSE.,
  useLinearSponge=.FALSE.,
