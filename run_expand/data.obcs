@@ -3,7 +3,7 @@
  OB_Jsouth = 352*1,
  OB_Jnorth = 352*0,
  useOrlanskiSouth=.TRUE.,
- useOBCSsponge=.FALSE.,
+ useOBCSsponge=.TRUE.,
  useLinearSponge=.FALSE.,
  OBCSsponge_Salt=.FALSE.,
  OBCSsponge_Theta=.FALSE.,

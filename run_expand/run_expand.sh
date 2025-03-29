@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
 # Script modificado para compilar, limpiar y ejecutar el modelo MITgcm
 # con opción de usar MPI
 
@@ -15,6 +17,8 @@ if [[ "$respuesta_clean_run" == [yY] ]]; then
     rm -f output.txt 2>/dev/null
     rm -f STDERR.0000 2>/dev/null
     rm -f STD* 2>/dev/null
+    rm -f scratch* 2>/dev/null
+  
 fi 
 
 # --- Copiar el nuevo ejecutable ---
