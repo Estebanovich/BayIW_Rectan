@@ -3,7 +3,11 @@
 *.meta
 STDERR.*
 mitgcmuv
-run_expand/STDOUT.*
+*STDOUT.*
+*STDERR.*
+*output.txt*
+
+
 
 # Specific directories #
 __pycache__/

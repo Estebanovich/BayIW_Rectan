@@ -12,8 +12,7 @@ if [[ "$respuesta_clean" == [yY] ]]; then
     echo "Ejecutando make clean..."
     make clean
     echo "Eliminando archivos con rm * ..."
-    rm -f *
-    rm -r *
+    rm -rf *
 fi
 
 GENMAKE2_PATH="../../../tools/genmake2"
