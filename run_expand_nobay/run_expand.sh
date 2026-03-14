@@ -7,9 +7,9 @@
 # --- Limpiar archvivos ---
 
 # Preguntar si se desea limpiar la simulación anterior antes de correr el modelo
-read -p "¿Desea limpiar la carpeta run_expand/ antes de correr el modelo? [y/n]: " respuesta_clean_run
+read -p "¿Desea limpiar la carpeta run_expand_nobay/ antes de correr el modelo? [y/n]: " respuesta_clean_run
 if [[ "$respuesta_clean_run" == [yY] ]]; then
-    echo "Limpiando archivos antiguos en 'run_expand'..."
+    echo "Limpiando archivos antiguos en 'run_expand_nobay'..."
     rm -f pickup* 2>/dev/null
     rm -rf mnc_000* 2>/dev/null
     rm -f PHref* 2>/dev/null
