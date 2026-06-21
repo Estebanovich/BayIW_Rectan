@@ -6,7 +6,8 @@ mitgcmuv
 *STDOUT.*
 *STDERR.*
 *output.txt*
-
+**/*STDOUT.*
+**/*STDERR.**
 
 
 # Specific directories #
